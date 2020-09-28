@@ -1,0 +1,137 @@
+*{
+	margin:0;
+	padding:0;
+	font-family: sans-serif;
+}
+
+
+.column {
+  float: right;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+  align-self: center;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container{
+	width: 100%;
+	height: 100%;
+			background-image: url('https://www.mercedes-benz.com/en/vehicles/passenger-cars/mercedes-benz-concept-cars/vision-avtr/_jcr_content/root/slider/sliderchilditems/slideritem/mobileImage/MQ2-0-mobileImage-20200107163410/01-mercedes-benz-vehicles-concept-cars-vision-avtr-2560x1280.jpeg');
+
+	background-repeat: no-repeat;
+	height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}.menu{
+	background: #000000;
+	height: 90px;
+}
+.menu ul{
+	display: inline-flex;
+	margin: 50px;
+	
+
+}
+.menu ul li{
+	list-style: none;
+	margin: 0 20px;
+	color: #b2b1b1;
+	cursor: pointer;
+	align-content: center;
+
+
+
+}
+.logo img{
+  width: 40px;
+  margin-top: -13px;
+  margin-right: 48px;
+}
+
+.active{
+	color: #5534eb !important;
+
+}
+.banner{
+	width: 80%;
+	height: 70%;
+	top: 25%;
+	left: 130px;
+	position: absolute;
+	color: #fff;
+
+}
+.app-text
+{
+	width: 50%;
+	float: left;
+
+}
+.app-text h1{
+	font-size: 43px;
+	width: 640px;
+	position: relative;
+	margin-left: 40px;
+}
+.app-text p{
+	font-size: 15px;
+	width: 650px;
+line-height: 25px;
+	margin: 30px 0 30px 40px;
+	color: #ffffff;
+}
+
+.social{
+	right: 72px;
+	bottom: 35px;
+	position: absolute;
+}
+.social ul li{
+	list-style: none;
+	margin-top: 15px;
+	text-align: center;
+}
+.social ul li a{
+	color: #999;
+	border-radius: 50%;
+	border: 1px solid #999;
+	padding: 5px;
+	display: block;
+
+	}
